@@ -1,0 +1,48 @@
+html {
+	background-color: #fff;
+	/* background-image: url(/i/bg/pattern_111g-edit.gif); */
+	background-attachment: fixed;
+	background-repeat: repeat;
+}
+
+#doc {
+	background-color: transparent;
+}
+
+#hd {
+	background-color: transparent;
+	/* space */
+	padding: 0.7em 0;
+	/* top */
+	border-top-width: 6px;
+	border-top-color: #022338;
+	border-top-style: solid;
+	/* bottom */
+	border-bottom-width: 1px;
+	border-bottom-color: #999;
+	border-bottom-style: solid;
+}
+
+#bd {
+	padding: 0.5em 0 5em 0;
+}
+
+#ft {
+	padding: 0.8em 0 0.7em 0;
+	border-top-width: 1px;
+	border-top-color: #777;
+	border-top-style: solid;
+    
+	/* Shadow effect for new browsers */
+	/*
+	-webkit-box-shadow: 0px 7px 20px #ddd;
+	-moz-box-shadow: 0px 7px 20px #ddd;
+	box-shadow: 0px 7px 20px #ddd;
+    */
+}
+
+/* Space between main cell elements of page*/
+.yui-g {
+	margin-bottom: 0.3em;
+	margin-top: 0.4em;
+}

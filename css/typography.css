@@ -1,0 +1,124 @@
+body {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	line-height: 1.6em;
+}
+
+.right {
+	text-align: right !important;
+}
+
+/* HEADERS */
+/* General */
+h1,h2,h3,h4,h5,h6 {
+	font-family: Helvetica, "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+	font-weight: bold;
+	color: #000;
+}
+/* Detail */
+h1 {
+	font-size: 48px;
+	line-height: 1.4em;
+	/* Text shadow effect for new browsers*/
+	text-shadow: 0px 0px 8px #888;
+}
+h2 {
+	font-size: 30px;
+	line-height: 1.8em;
+	/* Text shadow effect for new browsers*/
+	text-shadow: 0px 0px 3px #888;
+}
+h3 {
+	font-size: 20px;
+	line-height: 1.8em;
+	/* Text shadow effect for new browsers*/
+	text-shadow: 0px 0px 3px #888;
+}
+
+
+
+/* NORMAL TEXT */
+p {
+	margin-bottom: 1em;
+}
+
+/* Special text elements */
+em {
+	font-style: italic;
+}
+small {
+	font-size: x-small;
+}
+strong {
+	font-size: large;
+	letter-spacing: 0.05em;
+	font-weight: bold;
+}
+
+
+/* LINKS */
+a:link {
+	text-decoration: underline;
+	color:#00f;
+}
+a:visited {
+	color:#00f;
+}
+a:hover, a:active {
+	color: #42372A;
+}
+
+
+/* Header H1 link */
+#hd a:link {
+	text-decoration: none;
+	color:#000;
+}
+#hd a:visited {
+	color:#000;
+	text-decoration: none;
+}
+#hd a:hover, a:active{
+	color: #42372A;
+	text-decoration: none;
+}
+
+
+/* FOOTER */
+#ft p {
+	font-family: Helvetica, "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+	font-size: 14px;
+	line-height: 0.4em;
+	margin-bottom: 0em;
+	color: #333;
+}
+/* Footer H1 link */
+#ft a:link {
+	text-decoration: none;
+	color:#000;
+}
+#ft a:visited {
+	color:#000;
+	text-decoration: none;
+}
+#ft a:hover, a:active{
+	color: #42372A;
+	text-decoration: none;
+}
+
+
+/* OTHER ELEMENTS */
+
+hr {
+	font-weight: bold;
+	color: #777;
+	height: 1px;
+}
+
+
+
+/* EXTRAS */
+
+
+
+
