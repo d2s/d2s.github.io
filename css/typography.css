@@ -2,6 +2,7 @@ body {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 16px;
   line-height: 1.6em;
+  color: #fff;
 }
 
 
@@ -14,25 +15,22 @@ body {
 h1,h2,h3,h4,h5,h6 {
   font-family: Helvetica, "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
   font-weight: bold;
-  color: #000;
+  color: #fff;
 }
 /* Detail */
 h1 {
-  font-size: 48px;
+  font-size: 40px;
   line-height: 1.4em;
-  /* Text shadow effect for new browsers*/
   text-shadow: 0px 0px 8px #888;
 }
 h2 {
-  font-size: 30px;
+  font-size: 28px;
   line-height: 1.8em;
-  /* Text shadow effect for new browsers*/
   text-shadow: 0px 0px 3px #888;
 }
 h3 {
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.8em;
-  /* Text shadow effect for new browsers*/
   text-shadow: 0px 0px 3px #888;
 }
 
@@ -60,65 +58,67 @@ strong {
 /* LINKS */
 a:link {
   text-decoration: underline;
-  color:#00f;
+  color:#D6DCF0;
 }
 a:visited {
-  color:#00f;
+  color:#D6DCF0;
 }
 a:hover, a:active {
-  color: #42372A;
+  color: #F0F1F5;
+  text-decoration: none;
 }
 
 
 /* Header H1 link */
-#hd a:link {
-  text-decoration: none;
-  color:#000;
+#branding h1 {
+  font-size: 32px;
+  padding-bottom: 15px;
+  color: #121E2B;
+  text-shadow: 0px 0px 2px #121E2B;
 }
-#hd a:visited {
-  color:#000;
+#branding a:link {
+  text-decoration: none;
+  color: #121E2B;
+}
+#branding a:visited {
+  color: #121E2B;
   text-decoration: none;
 }
-#hd a:hover, a:active{
-  color: #42372A;
+#branding a:hover, a:active{
+  color: #121E2B;
   text-decoration: none;
+}
+
+
+#sidebar {
+  margin-top: 24px;
+  margin-bottom: 11px;
 }
 
 
 /* FOOTER */
-#ft p {
+#footer p {
   font-family: Helvetica, "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
   font-size: 14px;
   line-height: 0.4em;
   margin-bottom: 0em;
-  color: #333;
+  color: #aaa;
 }
 /* Footer H1 link */
-#ft a:link {
+#footer a:link {
   text-decoration: none;
-  color:#000;
+  color:#aaa;
 }
-#ft a:visited {
-  color:#000;
-  text-decoration: none;
-}
-#ft a:hover, a:active{
-  color: #42372A;
+#footer a:visited {
+  color:#aaa;
   text-decoration: none;
 }
-
-
-/* OTHER ELEMENTS */
-
-hr {
-  font-weight: bold;
+#footer a:hover, a:active{
   color: #777;
-  height: 1px;
+  text-decoration: none;
 }
 
 
-
-/* EXTRAS */
 
 
 
