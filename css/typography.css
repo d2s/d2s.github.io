@@ -10,28 +10,38 @@ body {
   text-align: right !important;
 }
 
+
 /* HEADERS */
+
 /* General */
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: Helvetica, "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
   font-weight: bold;
   color: #fff;
 }
+
 /* Detail */
 h1 {
   font-size: 40px;
   line-height: 1.4em;
-  text-shadow: 0px 0px 8px #888;
+  text-shadow: 0 0 8px #888;
 }
+
 h2 {
   font-size: 28px;
   line-height: 1.8em;
-  text-shadow: 0px 0px 3px #888;
+  text-shadow: 0 0 3px #888;
 }
+
 h3 {
   font-size: 18px;
   line-height: 1.8em;
-  text-shadow: 0px 0px 3px #888;
+  text-shadow: 0 0 3px #888;
 }
 
 
@@ -45,9 +55,11 @@ p {
 em {
   font-style: italic;
 }
+
 small {
   font-size: x-small;
 }
+
 strong {
   font-size: large;
   letter-spacing: 0.05em;
@@ -58,12 +70,15 @@ strong {
 /* LINKS */
 a:link {
   text-decoration: underline;
-  color:#D6DCF0;
+  color: #D6DCF0;
 }
+
 a:visited {
-  color:#D6DCF0;
+  color: #D6DCF0;
 }
-a:hover, a:active {
+
+a:hover,
+a:active {
   color: #F0F1F5;
   text-decoration: none;
 }
@@ -74,17 +89,21 @@ a:hover, a:active {
   font-size: 32px;
   padding-bottom: 15px;
   color: #121E2B;
-  text-shadow: 0px 0px 2px #121E2B;
+  text-shadow: 0 0 2px #121E2B;
 }
+
 #branding a:link {
   text-decoration: none;
   color: #121E2B;
 }
+
 #branding a:visited {
   color: #121E2B;
   text-decoration: none;
 }
-#branding a:hover, a:active{
+
+#branding a:hover,
+a:active {
   color: #121E2B;
   text-decoration: none;
 }
@@ -101,19 +120,23 @@ a:hover, a:active {
   font-family: Helvetica, "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
   font-size: 14px;
   line-height: 0.4em;
-  margin-bottom: 0em;
+  margin-bottom: 0;
   color: #aaa;
 }
+
 /* Footer H1 link */
 #footer a:link {
   text-decoration: none;
-  color:#aaa;
+  color: #aaa;
 }
+
 #footer a:visited {
   color:#aaa;
   text-decoration: none;
 }
-#footer a:hover, a:active{
+
+#footer a:hover,
+a:active {
   color: #777;
   text-decoration: none;
 }
