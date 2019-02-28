@@ -56,7 +56,7 @@ html {
   border-bottom-left-radius: 160px 60px;
   border-bottom-right-radius: 160px 60px;
 
-  box-shadow: 0px 8px 80px #1D2D3F;
+  box-shadow: 0 8px 80px #1D2D3F;
 }
 #branding:hover {
   background-color: #305073;
@@ -71,7 +71,7 @@ html {
   /*background-color: #39322D;*/
   border-top-left-radius: 60px;
   border-top-right-radius: 60px;
-  box-shadow: 0px -4px 60px #341427;
+  box-shadow: 0 -4px 60px #341427;
 
   /* Customized pattern from http://lea.verou.me/css3patterns/#carbon-fibre */
   background:
@@ -112,7 +112,7 @@ html {
   background-color: #273F1D;
 
   border-radius: 5px;
-  box-shadow: 0px 3px 30px #253B1B;
+  box-shadow: 0 3px 30px #253B1B;
 }
 
 
