@@ -2,7 +2,7 @@ body {
   font-family: Helvetica, "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
   font-size: 16px;
   line-height: 1.6em;
-  color: #fff;
+  color: #000;
 }
 
 
@@ -21,26 +21,23 @@ h4,
 h5,
 h6 {
   font-weight: bold;
-  color: #fff;
+  color: #000;
 }
 
 /* Detail */
 h1 {
   font-size: 40px;
   line-height: 1.4em;
-  text-shadow: 0 0 8px #888;
 }
 
 h2 {
   font-size: 28px;
   line-height: 1.8em;
-  text-shadow: 0 0 3px #888;
 }
 
 h3 {
   font-size: 18px;
   line-height: 1.8em;
-  text-shadow: 0 0 3px #888;
 }
 
 
@@ -69,16 +66,12 @@ strong {
 /* LINKS */
 a:link {
   text-decoration: underline;
-  color: #D6DCF0;
 }
 
-a:visited {
-  color: #D6DCF0;
-}
+/* a:visited {} */
 
 a:hover,
 a:active {
-  color: #F0F1F5;
   text-decoration: none;
 }
 
@@ -88,7 +81,7 @@ a:active {
   font-size: 32px;
   padding-bottom: 15px;
   color: #121E2B;
-  text-shadow: 0 0 2px #121E2B;
+  text-shadow: 0 0 1px #777;
 }
 
 .branding a:link {
@@ -119,23 +112,19 @@ a:active {
   font-size: 14px;
   line-height: 0.4em;
   margin-bottom: 0;
-  color: #aaa;
 }
 
 /* Footer H1 link */
 #footer a:link {
   text-decoration: none;
-  color: #aaa;
 }
 
 #footer a:visited {
-  color:#aaa;
   text-decoration: none;
 }
 
 #footer a:hover,
 a:active {
-  color: #777;
   text-decoration: none;
 }
 

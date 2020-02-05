@@ -28,7 +28,7 @@
 /* Layout */
 
 html {
-  background-color: #aaa;
+  background-color: linen;
 }
 
 
@@ -44,53 +44,25 @@ html {
 }
 
 #content {
-  max-width: 500px;
-  width: 70%;
-  margin: 30px auto -10px;
-  padding: 0.7em 1em;
-  border-top-left-radius: 60px;
-  border-top-right-radius: 60px;
-  box-shadow: 0 -4px 60px #341427;
+  /* max-width: 500px; */
 
-  /* Customized pattern from http://lea.verou.me/css3patterns/#carbon-fibre */
-  background:
-    radial-gradient(black 10%, transparent 13%) 0 0,
-    radial-gradient(black 10%, transparent 13%) 8px 8px,
-    radial-gradient(rgba(255,255,255,.2) 5%, transparent 22%) 0 1px,
-    radial-gradient(rgba(255,255,255,.2) 8%, transparent 15%) 8px 9px;
-  background-color:#341427;
-  background-size:16px 16px;
+  /* margin: 30px auto -10px; */
+  padding: 0.7em 1em;
 }
 
 #content article {
   padding-bottom: 5px;
-  border-bottom-width: 20px;
-  border-bottom-color: rgba(19, 11, 16, 0.4);
-  border-bottom-style: solid;
-  border-radius: 50px;
-  background-color: rgba(19, 11, 16, 0.4);
 }
 
 #content header {
-  background-color: rgba(19, 11, 16, .6);
   padding: 6px 0;
   margin: 0 auto 10px auto;
-  border-radius: 100px 100px 50px 50px;
 }
 
 
 
 #footer {
-  max-width: 700px;
   padding: 0.8em 0 0.7em 0;
-  border-top-width: 1px;
-  border-top-color: #416930;
-  border-top-style: solid;
-
-  background-color: #273F1D;
-
-  border-radius: 5px;
-  box-shadow: 0 3px 30px #253B1B;
 }
 
 
