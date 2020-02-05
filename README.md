@@ -1,3 +1,3 @@
-# d2s.github.com
+# d2s.github.io
 
 Small website.
