@@ -1,5 +1,5 @@
 body {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: Helvetica, "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
   font-size: 16px;
   line-height: 1.6em;
   color: #fff;
@@ -20,7 +20,6 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Helvetica, "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
   font-weight: bold;
   color: #fff;
 }
@@ -85,24 +84,24 @@ a:active {
 
 
 /* Header H1 link */
-#branding h1 {
+.branding h1 {
   font-size: 32px;
   padding-bottom: 15px;
   color: #121E2B;
   text-shadow: 0 0 2px #121E2B;
 }
 
-#branding a:link {
+.branding a:link {
   text-decoration: none;
   color: #121E2B;
 }
 
-#branding a:visited {
+.branding a:visited {
   color: #121E2B;
   text-decoration: none;
 }
 
-#branding a:hover,
+.branding a:hover,
 a:active {
   color: #121E2B;
   text-decoration: none;
@@ -117,7 +116,6 @@ a:active {
 
 /* FOOTER */
 #footer p {
-  font-family: Helvetica, "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
   font-size: 14px;
   line-height: 0.4em;
   margin-bottom: 0;
@@ -140,7 +138,6 @@ a:active {
   color: #777;
   text-decoration: none;
 }
-
 
 
 
